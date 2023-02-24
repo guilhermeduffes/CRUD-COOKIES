@@ -32,6 +32,10 @@ td {
   border: 1px solid black;
 }
 
+tr{
+  text-align: center;
+}
+
 
 @media screen and (max-width:655px) {
   * {
@@ -66,5 +70,9 @@ td {
     white-space: nowrap;
     padding: 10px;
     border: 1px solid black;
+  }
+
+  tr{
+    text-align: center;
   }
 }

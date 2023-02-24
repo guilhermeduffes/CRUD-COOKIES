@@ -1,0 +1,24 @@
+{
+  "name": "crud-cookies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermeduffes/CRUD-COOKIES.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermeduffes/CRUD-COOKIES/issues"
+  },
+  "homepage": "https://github.com/guilhermeduffes/CRUD-COOKIES#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0"
+  }
+}
