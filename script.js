@@ -4,7 +4,7 @@ const cidadeInput = document.getElementById("cidade");
 const emailInput = document.getElementById("email");
 const tbody = document.getElementById("tbody");
 const botaoAlterações = document.getElementById("submit2");
-
+const cepInput = document.getElementById('cidade');
 const auxArr = [nomeInput, idadeInput, cidadeInput, emailInput];
 
 let contador = 0;

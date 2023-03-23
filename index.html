@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <form id="form">
-        <input autocomplete="off" type="text" id="nome" placeholder="Nome">
-        <input autocomplete="off" type="number" id="idade" placeholder="Idade">
-        <input autocomplete="off" type="text" id="cidade" placeholder="Cidade">
-        <input autocomplete="off" type="email" id="email" placeholder="Email">
-        <button type="button" id="submit">Salvar</button>
-        <button style="display: none;" type="button" id="submit2" onclick="vasco()">Salvar alterações</button>
-      </form>
-      
-      <table id="table">
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>Idade</th>
-            <th>Cidade</th>
-            <th>Email</th>
-            <th>Edit</th>
-            <th>Remove</th>
-          </tr>
-        </thead>
-        <tbody id="tbody">
-        </tbody>
-      </table>      
-      <script src="script.js"></script>
-</body> 
+  <form id="form">
+    <input autocomplete="off" type="text" id="nome" placeholder="Nome">
+    <input autocomplete="off" type="number" id="idade" placeholder="Idade">
+    <input autocomplete="off" type="text" id="cidade" name="cep">
+    <input autocomplete="off" type="email" id="email" placeholder="Email">
+    <button type="button" id="submit">Salvar</button>
+    <button style="display: none;" type="button" id="submit2" onclick="vasco()">Salvar alterações</button>
+  </form>
+
+  <table id="table">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Endereço</th>
+        <th>Email</th>
+        <th>Edit</th>
+        <th>Remove</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+
 </html>
